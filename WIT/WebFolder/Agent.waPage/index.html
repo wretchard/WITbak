@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html><html>
+    <head>
+        <title>Agent Screen</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="generator" content="Wakanda GUIDesigner"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta name="WAF.catalog" content="Pricing,AgencyPublic"/>
+    	<meta name="wakanda-version" content="5 build 5.138247"/>
+		<meta name="wakanda-build" content="5.138247"/>
+		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
+		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
+
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="object" data-source="loginObj" data-lib="WAF" data-id="loginObj" data-dataType="string" data-autoLoad="true" data-attributes="loginName:string,password:string" content="loginObj"/><meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
+
+		<meta name="WAF.config.rpc.file" content="/rpc-proxy/fieldChecker?namespace=fieldChecker"/>
+
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Pricing" data-lib="WAF" data-id="pricing" data-dataType="string" data-autoLoad="true" content="pricing"/>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="AgencyPublic" data-lib="WAF" data-id="agencyPublic" data-dataType="string" data-autoLoad="true" content="agencyPublic"/>
+		</head>
+    <body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="default" data-platform="desktop" data-lib="WAF" data-group="[['fileUpload2','button5']]" data-entire-model="false" data-apple-meta-tags-status-bar="default" style="bottom:;right:;visibility:hidden;">
+	
+	
+	
+	
+	
+	
+		<div id="imageHeader" data-type="image" data-target="_blank" data-src="/images/banner.png" data-lib="WAF" data-label-position="left" data-label="" data-fit="3" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-image "></div>
+		<div id="containerLogin" data-type="container" data-lib="WAF" data-label-position="top" data-label="loginObj3" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-container waf-container-level-0 waf-level-0">
+ 		<input type="text" id="textLogin" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="User Name" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="loginObj.loginName" class="waf-widget waf-textField "/>
+ 		<label id="label4" for="textLogin" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-textField">User Name</label>
+ 		<input type="text" id="textPassWord" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="Password" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="loginObj.password" class="waf-widget waf-textField "/>
+ 		<label id="label5" for="textPassWord" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-textField">Password</label>
+ 			<div id="errorDiv1" data-type="errorDiv" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-errorDiv errorStyle"></div>
+ 		<button id="buttonRegister" data-type="button" data-text="Register" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button standardButton"></button>
+ 		<div id="richTextFullName" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoWidth="false" class="waf-widget waf-richText "></div>
+ 		<button id="buttonSignOut" data-type="button" data-text="Sign Out" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button "></button>
+ 		<button id="buttonLogin" data-type="button" data-text="Sign In" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button standardButton"></button>
+ 	</div>	<label id="label6" for="containerLogin" data-valign="top" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label waf-label-container">loginObj3</label>
+		<div id="containerSetup" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-container waf-container-level-0 waf-level-0">
+ 		<input type="text" id="textAgencyName" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="top" data-label="Agency Name" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic.agencyName" class="waf-widget waf-textField "/>
+ 		<label id="label2" for="textAgencyName" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-textField">Agency Name</label>
+ 			
+ 					<div id="fileUpload2" data-userAction="Replace" data-type="fileUpload" data-text="Drag your file(s) here" data-notification="false" data-maxfilesize-unity="KB" data-maxfilesize="-1" data-maxfiles="-1" data-listStyle="popup" data-linked-tag="button5" data-lib="WAF" data-label-position="top" data-label="Upload Logo" data-folder="tmp" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic.logo" data-autoUpload="true" data-action="false" class="waf-widget waf-fileUpload ">	<button id="button5" data-type="button" data-text="..." data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button waf-fileUpload-btnBrowse"></button>
+	</div>
+ 		<label id="label3" for="fileUpload2" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-label waf-label-fileUpload">Upload Logo</label>
+ 		<label id="label8" for="textDescription" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-textField">Description</label>
+ 		<textarea id="textDescription" data-type="textField" data-readOnly="false" data-password="false" data-multiline="true" data-lib="WAF" data-label-position="top" data-label="Description" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic.description" class="waf-widget waf-textField "></textarea>
+		<button id="buttonCategories" data-type="button" data-text="Talent Categories" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button standardButton"></button>
+ 		<button id="buttonApplicants" data-type="button" data-text="See Applicants" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-action="simple" class="waf-widget waf-button "></button>
+ 		<div id="imageLogo" data-type="image" data-target="_blank" data-lib="WAF" data-label-position="left" data-label="" data-fit="0" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic.logo" class="waf-widget waf-image "></div>
+ 		<div id="richTextPrice" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="top" data-label="Pricing $" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="pricing.value" data-autoWidth="false" class="waf-widget waf-richText "></div>
+ 		<label id="label9" for="richTextPrice" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-richText">Pricing $</label>
+ 		<input type="text" id="textEmail" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="top" data-label="Email" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic.agencyEmail" class="waf-widget waf-textField "/>
+ 		<label id="label7" for="textEmail" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-textField">Email</label>
+ 		<input type="text" id="textField1" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="top" data-label="URL" data-datapicker-on="false" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic.url" class="waf-widget waf-textField "/>
+ 		<label id="label10" for="textField1" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" class="waf-widget waf-label waf-label-textField">URL</label>
+ 		<button id="buttonSave" data-type="button" data-target="_blank" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="agencyPublic" data-action="save" class="waf-widget waf-button "></button>
+ 		<div id="combobox1" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="top" data-label="Select a plan" data-editable="true" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding-options="[label] " data-binding-key="ID" data-binding="pricing" data-autoDispatch="true" class="waf-widget waf-combobox "><select><option value="">[label] </option></select></div>
+ 		<label id="label12" for="combobox1" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-combobox">Select a plan</label>
+ 	</div>
+		<div id="richTextHeader" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-left="true" data-autoWidth="false" class="waf-widget waf-richText ">Agent Screen</div>
+		
+			<div id="componentAgent" data-type="component" data-start-load="false" data-modal="true" data-lib="WAF" data-draggable="true" data-constraint-top="true" data-constraint-left="true" class="waf-widget waf-component "></div>
+		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script>
+	</body>
+</html>

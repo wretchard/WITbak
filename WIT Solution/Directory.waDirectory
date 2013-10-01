@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
+
+<group ID="01000000000000000000000000000000" name="Admin"/>
+
+<group ID="73189212A3FB2742B07076EF8B126CBE" name="Administrator">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include group="Debugger" groupID="569C2289C9FBED4E96B9B779001B890F"/>
+
+	<include group="Internal" groupID="508E3AA3AC9354469C6DA917D26EBDEC"/>
+
+</group>
+
+<group ID="21C0E03169025A4CBF3163C385B7AC32" name="Employee">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include group="Administrator" groupID="73189212A3FB2742B07076EF8B126CBE"/>
+
+	<include group="Debugger" groupID="569C2289C9FBED4E96B9B779001B890F"/>
+
+	<include group="Internal" groupID="508E3AA3AC9354469C6DA917D26EBDEC"/>
+
+	<include group="Manager" groupID="29FD8EA397405C4EB56372BC6E36AA6D"/>
+
+	<include group="Payroll" groupID="5146A9F9C68EB24ABDBB586C46970428"/>
+
+</group>
+
+<group ID="29FD8EA397405C4EB56372BC6E36AA6D" name="Manager">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include group="Administrator" groupID="73189212A3FB2742B07076EF8B126CBE"/>
+
+	<include group="Internal" groupID="508E3AA3AC9354469C6DA917D26EBDEC"/>
+
+	<include group="Debugger" groupID="569C2289C9FBED4E96B9B779001B890F"/>
+
+</group>
+
+<group ID="508E3AA3AC9354469C6DA917D26EBDEC" name="Internal">
+
+	<include group="Debugger" groupID="569C2289C9FBED4E96B9B779001B890F"/>
+
+</group>
+
+<group ID="569C2289C9FBED4E96B9B779001B890F" name="Debugger"/>
+
+<group ID="5146A9F9C68EB24ABDBB586C46970428" name="Payroll">
+
+	<include group="Admin" groupID="01000000000000000000000000000000"/>
+
+	<include group="Administrator" groupID="73189212A3FB2742B07076EF8B126CBE"/>
+
+	<include group="Debugger" groupID="569C2289C9FBED4E96B9B779001B890F"/>
+
+	<include group="Internal" groupID="508E3AA3AC9354469C6DA917D26EBDEC"/>
+
+</group>
+
+<user ID="6DB0C219C84B5A418DEBD06F178F71FF" name="admin" fullName="admin" password="cb9c97471515041e919c60e1e8cf923a"/>
+</directory>

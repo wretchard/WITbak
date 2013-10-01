@@ -1,0 +1,154 @@
+Check bit tables for segment 1 on 1 elements
+End Check bit tables for segment 1
+Check bit tables for segment 65 on 1 elements
+End Check bit tables for segment 65
+Checking auto sequence number definitions on 8 elements
+End Checking auto sequence number definitions
+Checking chained list of deleted auto sequence number def initions on 8 elements
+End Checking chained list of deleted auto sequence number def initions
+Checking data table definitions on 10 elements
+End Checking data table definitions
+Checking chained list of deleted table definitions on 10 elements
+End Checking chained list of deleted table definitions
+Checking index definitions on 15 elements
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+Field reference is invalid
+End Checking index definitions
+Checking chained list of deleted index definitions on 15 elements
+End Checking chained list of deleted index definitions
+Load data tables on 0 elements
+Checking data table headers on 10 elements
+End Checking data table headers
+Checking chained list of deleted data table headers on 10 elements
+End Checking chained list of deleted data table headers
+End 
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 3 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 0 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 0 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 1 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 3 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 3 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 2 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 5 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 2 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking BLOBs in table [Table#0] on 0 elements
+End Checking BLOBs in table [Table#0]
+Checking list of deleted BLOBs in table [Table#0] on 0 elements
+End Checking list of deleted BLOBs in table [Table#0]
+Checking records in table [Table#0] on 1 elements
+End Checking records in table [Table#0]
+Checking list of deleted records in table [Table#0] on 0 elements
+End Checking list of deleted records in table [Table#0]
+Checking index Index 0 on [n/a] on 0 elements
+Address is invalid
+End Checking index Index 0 on [n/a]
+Checking index Index 1 on [n/a] on 0 elements
+Address is invalid
+End Checking index Index 1 on [n/a]
+Checking index Index 2 on [n/a] on 0 elements
+Address is invalid
+End Checking index Index 2 on [n/a]
+Checking index Index 3 on [n/a] on 0 elements
+Address is invalid
+End Checking index Index 3 on [n/a]
+Checking index Index 4 on [n/a] on 0 elements
+End Checking index Index 4 on [n/a]
+Checking index Index 5 on [n/a] on 0 elements
+End Checking index Index 5 on [n/a]
+Checking index Index 6 on [n/a] on 0 elements
+End Checking index Index 6 on [n/a]
+Checking index Index 7 on [n/a] on 0 elements
+End Checking index Index 7 on [n/a]
+Checking index Index 8 on [n/a] on 0 elements
+End Checking index Index 8 on [n/a]
+Checking index Index 9 on [n/a] on 0 elements
+End Checking index Index 9 on [n/a]
+Checking index Index 10 on [n/a] on 0 elements
+End Checking index Index 10 on [n/a]
+Checking index Index 11 on [n/a] on 0 elements
+End Checking index Index 11 on [n/a]
+Checking index Index 12 on [n/a] on 0 elements
+End Checking index Index 12 on [n/a]
+Checking index Index 13 on [n/a] on 0 elements
+End Checking index Index 13 on [n/a]
+Checking index Index 14 on [n/a] on 0 elements
+End Checking index Index 14 on [n/a]
+Scanning data on 65 elements
+End Scanning data
+19 errors found

@@ -5,8 +5,8 @@
 
 #label1 {
 	 width: 50px;
-	 height: 14px;
-	 top: 380px;
+	 height: 13px;
+	 top: 380.5px;
 	 left: 191px;
 	
 	 position: absolute;
@@ -83,7 +83,7 @@
 #richText6 {
 	 width: 400px;
 	 height: 15px;
-	 top: 29px;
+	 top: 28px;
 	 left: 7px;
 	
 	 position: absolute;
@@ -467,8 +467,8 @@
 
 #label2 {
 	 width: 65px;
-	 height: 14px;
-	 top: 381px;
+	 height: 13px;
+	 top: 381.5px;
 	 left: 11px;
 	
 	 position: absolute;
@@ -506,6 +506,7 @@
 	 -webkit-box-shadow: rgb(204, 204, 204) 0px 0px 0px 3px;
 	 -moz-box-shadow: rgb(204, 204, 204) 0px 0px 0px 3px;
 	 box-shadow: rgb(204, 204, 204) 0px 0px 0px 3px;
+	
 	 
 }
 
@@ -677,6 +678,7 @@
 	 -webkit-box-shadow: transparent 0px 0px 0px 0px;
 	 -moz-box-shadow: transparent 0px 0px 0px 0px;
 	 box-shadow: transparent 0px 0px 0px 0px;
+	
 	 
 }
 
@@ -687,6 +689,18 @@
 	 left: 246px;
 	
 	 position: absolute;
+	 
+}
+
+#buttonReset {
+	 width: 92px;
+	 height: 22px;
+	 top: 376px;
+	 left: 408px;
+	
+	 position: absolute;
+	 color: rgb(0, 0, 0);
+	 font-size: 11px;
 	 
 }
 

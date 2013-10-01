@@ -2,6 +2,8 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var buttonReset = {};	// @button
+	var comboCategory = {};	// @combobox
 	var menuTipJar = {};	// @menuItem
 	var menuWiki = {};	// @menuItem
 	var menuAmazon = {};	// @menuItem
@@ -16,6 +18,24 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	buttonReset.click = function buttonReset_click (event)// @startlock
+	{// @endlock
+		sources.where.all();
+	};// @lock
+
+	comboCategory.change = function comboCategory_change (event)// @startlock
+	{// @endlock
+			vCity =this.getValue();
+			sources.where.filterQuery("category=:1", vCity, {
+			onSuccess:function (event) {
+				$$('googleMaps1').setCenter(event.dataSource.city)
+				$$('errorDiv1').setValue('')
+			}
+			}
+		
+		)
+	};// @lock
 
 	menuTipJar.click = function menuTipJar_click (event)// @startlock
 	{// @endlock
@@ -88,7 +108,17 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		function() {
 			$('#errorDiv1').html('');
 		}
-		);								
+		);
+		//load up the combo box
+		sources.where.distinctValues('category',
+		{onSuccess: function(event) {
+			dv=event.distinctValues;
+			for (var i=0; i<dv.length; i++) {
+				$$('comboCategory').addOption(dv[i],dv[i])
+			}
+			}
+		}
+		)									
 	};// @lock
 
 function honk(event) {
@@ -110,7 +140,7 @@ function honk(event) {
 function searchCity(vCity) {
 	
 	
-	sources.where.query("city=:1", vCity, {
+	sources.where.filterQuery("city=:1", vCity, {
 			onSuccess:function (event) {
 				$$('googleMaps1').setCenter(event.dataSource.city)
 				$$('errorDiv1').setValue('')
@@ -201,6 +231,8 @@ function searchCity(vCity) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("buttonReset", "click", buttonReset.click, "WAF");
+	WAF.addListener("comboCategory", "change", comboCategory.change, "WAF");
 	WAF.addListener("menuTipJar", "click", menuTipJar.click, "WAF");
 	WAF.addListener("menuWiki", "click", menuWiki.click, "WAF");
 	WAF.addListener("menuAmazon", "click", menuAmazon.click, "WAF");

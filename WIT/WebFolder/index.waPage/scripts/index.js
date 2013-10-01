@@ -2,6 +2,10 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var menuTipJar = {};	// @menuItem
+	var menuWiki = {};	// @menuItem
+	var menuAmazon = {};	// @menuItem
+	var menuBelmont = {};	// @menuItem
 	var documentEvent = {};	// @document
 	var textFieldSearch = {};	// @textField
 	var radioGroupTime = {};	// @radioGroup
@@ -12,6 +16,26 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	menuTipJar.click = function menuTipJar_click (event)// @startlock
+	{// @endlock
+		window.open("http://wretchard.com/tipjar.html", "_blank");
+	};// @lock
+
+	menuWiki.click = function menuWiki_click (event)// @startlock
+	{// @endlock
+		window.open("http://en.wikipedia.org/wiki/Belmont_Club", "_blank");
+	};// @lock
+
+	menuAmazon.click = function menuAmazon_click (event)// @startlock
+	{// @endlock
+		window.open("https://www.amazon.com/author/fernandezrichard", "_blank");
+	};// @lock
+
+	menuBelmont.click = function menuBelmont_click (event)// @startlock
+	{// @endlock
+		window.open("http://pjmedia.com/richardfernandez/", "_blank");
+	};// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
@@ -44,7 +68,27 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		function() {
 			$('#errorDiv1').html('');
 		}
-		);				
+		);
+		//citysearchfield
+		$('#textFieldSearch').hover(
+		function() {
+			$('#errorDiv1').html('Enter a city to search');
+		},
+		
+		function() {
+			$('#errorDiv1').html('');
+		}
+		);
+		//combobox
+		$('#comboCategory').hover(
+		function() {
+			$('#errorDiv1').html('Choose a category to search');
+		},
+		
+		function() {
+			$('#errorDiv1').html('');
+		}
+		);								
 	};// @lock
 
 function honk(event) {
@@ -157,6 +201,10 @@ function searchCity(vCity) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("menuTipJar", "click", menuTipJar.click, "WAF");
+	WAF.addListener("menuWiki", "click", menuWiki.click, "WAF");
+	WAF.addListener("menuAmazon", "click", menuAmazon.click, "WAF");
+	WAF.addListener("menuBelmont", "click", menuBelmont.click, "WAF");
 	WAF.addListener("document", "onLoad", documentEvent.onLoad, "WAF");
 	WAF.addListener("textFieldSearch", "keydown", textFieldSearch.keydown, "WAF");
 	WAF.addListener("radioGroupTime", "change", radioGroupTime.change, "WAF");

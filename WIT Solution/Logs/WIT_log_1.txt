@@ -5930,3 +5930,28 @@
 2013-10-01 10:37:54 [com.wakanda-software.WIT.WIT] INFO - "WIT" project closed
 2013-10-01 10:37:54 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project closed
 2013-10-01 10:37:55 [com.wakanda-software.WIT] INFO - "WIT" solution closed
+2013-10-01 11:16:51 [com.wakanda-software] INFO - Opens the solution "C:\Users\dse\Documents\Wakanda\WIT\WIT Solution\WIT.waSolution" for running
+2013-10-01 11:16:51 [com.wakanda-software.WIT] INFO - Users and groups directory opened
+2013-10-01 11:16:51 [com.wakanda-software.WIT.WIT] INFO - Datastore opened
+2013-10-01 11:16:52 [com.wakanda-software.WIT.WIT] INFO - "WIT" project opened
+2013-10-01 11:16:52 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-10-01 11:16:52 [com.wakanda-software.WIT] INFO - "WIT" solution opened
+2013-10-01 11:16:52 [com.wakanda-software] INFO - Starts "WIT" solution
+2013-10-01 11:16:52 [com.wakanda-software.WIT.ServerAdmin] INFO - HTTP Server started
+2013-10-01 11:16:52 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project started
+2013-10-01 11:16:52 [com.wakanda-software.WIT.WIT] INFO - HTTP Server started
+2013-10-01 11:16:52 [com.wakanda-software.WIT.WIT] INFO - "WIT" project started
+2013-10-01 11:16:52 [com.wakanda-software.WIT.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-10-01 11:16:52 [com.wakanda-software.WIT.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-10-01 11:16:52 [com.wakanda-software.WIT.WIT] INFO - Executes the bootstrap file(s)
+2013-10-01 11:16:52 [com.wakanda-software.WIT.WIT] INFO - Bootstrap file(s) executed
+2013-10-01 11:16:52 [com.wakanda-software.WIT] INFO - "WIT" solution started
+2013-10-01 11:16:52 [com.wakanda-software] INFO - "WIT" solution has been successfully opened for running (duration: 476 ms)
+2013-10-01 12:06:57 [com.wakanda-software] INFO - Stops "WIT" solution
+2013-10-01 12:06:58 [com.wakanda-software.WIT.WIT] INFO - "WIT" project stopped
+2013-10-01 12:06:59 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-10-01 12:06:59 [com.wakanda-software.WIT] INFO - "WIT" solution stopped
+2013-10-01 12:06:59 [com.wakanda-software] INFO - Closes "WIT" solution
+2013-10-01 12:06:59 [com.wakanda-software.WIT.WIT] INFO - "WIT" project closed
+2013-10-01 12:06:59 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-10-01 12:07:00 [com.wakanda-software.WIT] INFO - "WIT" solution closed

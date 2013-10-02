@@ -6081,3 +6081,214 @@
 2013-10-01 20:47:32 [com.wakanda-software.WIT.WIT] INFO - "WIT" project closed
 2013-10-01 20:47:32 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project closed
 2013-10-01 20:47:33 [com.wakanda-software.WIT] INFO - "WIT" solution closed
+2013-10-02 07:50:09 [com.wakanda-software] INFO - Opens the solution "C:\Users\dse\Documents\Wakanda\WIT\WIT Solution\WIT.waSolution" for running
+2013-10-02 07:50:09 [com.wakanda-software.WIT] INFO - Users and groups directory opened
+2013-10-02 07:50:09 [com.wakanda-software.WIT.WIT] INFO - Datastore opened
+2013-10-02 07:50:09 [com.wakanda-software.WIT.WIT] INFO - "WIT" project opened
+2013-10-02 07:50:09 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-10-02 07:50:09 [com.wakanda-software.WIT] INFO - "WIT" solution opened
+2013-10-02 07:50:09 [com.wakanda-software] INFO - Starts "WIT" solution
+2013-10-02 07:50:09 [com.wakanda-software.WIT.ServerAdmin] INFO - HTTP Server started
+2013-10-02 07:50:09 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project started
+2013-10-02 07:50:09 [com.wakanda-software.WIT.WIT] INFO - HTTP Server started
+2013-10-02 07:50:09 [com.wakanda-software.WIT.WIT] INFO - "WIT" project started
+2013-10-02 07:50:09 [com.wakanda-software.WIT.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-10-02 07:50:09 [com.wakanda-software.WIT.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-10-02 07:50:09 [com.wakanda-software.WIT.WIT] INFO - Executes the bootstrap file(s)
+2013-10-02 07:50:09 [com.wakanda-software.WIT.WIT] INFO - Bootstrap file(s) executed
+2013-10-02 07:50:09 [com.wakanda-software.WIT] INFO - "WIT" solution started
+2013-10-02 07:50:09 [com.wakanda-software] INFO - "WIT" solution has been successfully opened for running (duration: 417 ms)
+2013-10-02 09:45:21 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27060, task name is HTTP connection handler
+2013-10-02 09:45:21 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27060, task name is HTTP connection handler
+2013-10-02 09:45:51 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27060, task name is HTTP connection handler
+2013-10-02 09:45:51 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27060, task name is HTTP connection handler
+2013-10-02 09:47:10 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #26752, task name is HTTP connection handler
+2013-10-02 09:47:10 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #26752, task name is HTTP connection handler
+2013-10-02 09:47:45 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #29276, task name is HTTP connection handler
+2013-10-02 09:47:45 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #29276, task name is HTTP connection handler
+2013-10-02 09:49:10 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27072, task name is HTTP connection handler
+2013-10-02 09:49:10 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27072, task name is HTTP connection handler
+2013-10-02 09:49:18 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27072, task name is HTTP connection handler
+2013-10-02 09:49:18 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27072, task name is HTTP connection handler
+2013-10-02 09:49:57 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #28080, task name is HTTP connection handler
+2013-10-02 09:49:57 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #28080, task name is HTTP connection handler
+2013-10-02 09:50:50 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27072, task name is HTTP connection handler
+2013-10-02 09:50:50 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27072, task name is HTTP connection handler
+2013-10-02 09:50:59 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27072, task name is HTTP connection handler
+2013-10-02 09:50:59 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27072, task name is HTTP connection handler
+2013-10-02 09:51:13 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27060, task name is HTTP connection handler
+2013-10-02 09:51:13 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27060, task name is HTTP connection handler
+2013-10-02 09:52:16 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #29276, task name is HTTP connection handler
+2013-10-02 09:52:16 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #29276, task name is HTTP connection handler
+2013-10-02 09:52:24 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #29276, task name is HTTP connection handler
+2013-10-02 09:52:24 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #29276, task name is HTTP connection handler
+2013-10-02 09:53:16 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27876, task name is HTTP connection handler
+2013-10-02 09:53:16 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27876, task name is HTTP connection handler
+2013-10-02 09:53:25 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #28080, task name is HTTP connection handler
+2013-10-02 09:53:25 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #28080, task name is HTTP connection handler
+2013-10-02 09:53:33 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #28080, task name is HTTP connection handler
+2013-10-02 09:53:33 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #28080, task name is HTTP connection handler
+2013-10-02 09:53:39 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27876, task name is HTTP connection handler
+2013-10-02 09:53:39 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27876, task name is HTTP connection handler
+2013-10-02 10:12:07 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27060, task name is HTTP connection handler
+2013-10-02 10:12:07 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27060, task name is HTTP connection handler
+2013-10-02 10:12:20 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27060, task name is HTTP connection handler
+2013-10-02 10:12:20 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27060, task name is HTTP connection handler
+2013-10-02 10:12:25 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #28080, task name is HTTP connection handler
+2013-10-02 10:12:25 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #28080, task name is HTTP connection handler
+2013-10-02 10:13:46 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27876, task name is HTTP connection handler
+2013-10-02 10:13:46 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27876, task name is HTTP connection handler
+2013-10-02 12:22:34 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #28080, task name is HTTP connection handler
+2013-10-02 12:22:34 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #28080, task name is HTTP connection handler
+2013-10-02 12:23:49 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27072, task name is HTTP connection handler
+2013-10-02 12:23:49 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27072, task name is HTTP connection handler
+2013-10-02 12:27:13 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #26752, task name is HTTP connection handler
+2013-10-02 12:27:13 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #26752, task name is HTTP connection handler
+2013-10-02 12:28:20 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27072, task name is HTTP connection handler
+2013-10-02 12:28:20 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27072, task name is HTTP connection handler
+2013-10-02 12:29:04 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #27876, task name is HTTP connection handler
+2013-10-02 12:29:04 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #27876, task name is HTTP connection handler
+2013-10-02 13:13:38 [com.wakanda-software] INFO - Stops "WIT" solution
+2013-10-02 13:13:39 [com.wakanda-software.WIT.WIT] INFO - "WIT" project stopped
+2013-10-02 13:13:40 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-10-02 13:13:40 [com.wakanda-software.WIT] INFO - "WIT" solution stopped
+2013-10-02 13:13:40 [com.wakanda-software] INFO - Closes "WIT" solution
+2013-10-02 13:13:41 [com.wakanda-software.WIT.WIT] INFO - "WIT" project closed
+2013-10-02 13:13:41 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-10-02 13:13:41 [com.wakanda-software.WIT] INFO - "WIT" solution closed
+2013-10-02 13:13:41 [com.wakanda-software.WIT] INFO - Users and groups directory opened
+2013-10-02 13:13:41 [com.wakanda-software.WIT.WIT] INFO - Datastore opened
+2013-10-02 13:13:41 [com.wakanda-software.WIT.WIT] INFO - "WIT" project opened
+2013-10-02 13:13:41 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project opened
+2013-10-02 13:13:41 [com.wakanda-software.WIT] INFO - "WIT" solution opened
+2013-10-02 13:13:41 [com.wakanda-software] INFO - Starts "WIT" solution
+2013-10-02 13:13:41 [com.wakanda-software.WIT.ServerAdmin] INFO - HTTP Server started
+2013-10-02 13:13:41 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project started
+2013-10-02 13:13:42 [com.wakanda-software.WIT.WIT] INFO - HTTP Server started
+2013-10-02 13:13:42 [com.wakanda-software.WIT.WIT] INFO - "WIT" project started
+2013-10-02 13:13:42 [com.wakanda-software.WIT.ServerAdmin] INFO - Executes the bootstrap file(s)
+2013-10-02 13:13:42 [com.wakanda-software.WIT.ServerAdmin] INFO - Bootstrap file(s) executed
+2013-10-02 13:13:42 [com.wakanda-software.WIT.WIT] INFO - Executes the bootstrap file(s)
+2013-10-02 13:13:42 [com.wakanda-software.WIT.WIT] INFO - Bootstrap file(s) executed
+2013-10-02 13:13:42 [com.wakanda-software.WIT] INFO - "WIT" solution started
+2013-10-02 13:13:42 [com.wakanda-software] INFO - "WIT" solution has been successfully opened for running (duration: 409 ms)
+2013-10-02 13:16:06 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 13:16:06 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 14:06:27 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 14:06:27 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 14:52:44 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 14:52:44 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 15:19:18 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 15:19:18 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 15:19:29 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 15:19:29 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 15:20:32 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 15:20:32 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 15:20:55 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 15:20:55 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 15:25:38 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38624, task name is HTTP connection handler
+2013-10-02 15:25:38 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38624, task name is HTTP connection handler
+2013-10-02 15:29:43 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 15:29:43 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 16:54:02 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38504, task name is HTTP connection handler
+2013-10-02 16:54:02 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38504, task name is HTTP connection handler
+2013-10-02 16:55:49 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38624, task name is HTTP connection handler
+2013-10-02 16:55:49 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38624, task name is HTTP connection handler
+2013-10-02 16:56:49 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38504, task name is HTTP connection handler
+2013-10-02 16:56:49 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38504, task name is HTTP connection handler
+2013-10-02 17:02:22 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 17:02:22 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 17:03:08 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 17:03:08 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 17:04:12 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 17:04:12 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 17:04:35 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 17:04:35 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 17:05:52 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38624, task name is HTTP connection handler
+2013-10-02 17:05:52 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38624, task name is HTTP connection handler
+2013-10-02 17:11:00 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 17:11:00 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 17:13:02 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38624, task name is HTTP connection handler
+2013-10-02 17:13:02 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38624, task name is HTTP connection handler
+2013-10-02 17:15:13 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 17:15:13 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 17:48:12 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38624, task name is HTTP connection handler
+2013-10-02 17:48:12 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38624, task name is HTTP connection handler
+2013-10-02 17:48:54 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 17:48:54 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 17:49:22 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 17:49:22 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 17:51:24 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 17:51:24 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 17:53:43 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 17:53:43 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 17:56:01 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38504, task name is HTTP connection handler
+2013-10-02 17:56:01 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38504, task name is HTTP connection handler
+2013-10-02 17:56:15 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 17:56:15 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 17:56:23 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 17:56:23 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 17:56:25 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38552, task name is HTTP connection handler
+2013-10-02 17:56:25 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38552, task name is HTTP connection handler
+2013-10-02 17:56:25 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38552, task name is HTTP connection handler
+2013-10-02 17:56:25 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38552, task name is HTTP connection handler
+2013-10-02 17:56:26 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 17:56:26 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 17:56:38 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 17:56:38 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 18:01:03 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 18:01:03 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 18:01:11 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38624, task name is HTTP connection handler
+2013-10-02 18:01:11 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38624, task name is HTTP connection handler
+2013-10-02 18:01:11 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38624, task name is HTTP connection handler
+2013-10-02 18:01:11 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38624, task name is HTTP connection handler
+2013-10-02 18:01:12 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 18:01:12 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 18:01:21 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 18:01:21 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 18:01:32 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 18:01:32 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 18:01:54 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38816, task name is HTTP connection handler
+2013-10-02 18:01:54 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38816, task name is HTTP connection handler
+2013-10-02 18:01:54 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38816, task name is HTTP connection handler
+2013-10-02 18:01:54 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38816, task name is HTTP connection handler
+2013-10-02 18:01:56 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 18:01:56 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 18:03:29 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 18:03:29 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 18:04:02 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38816, task name is HTTP connection handler
+2013-10-02 18:04:02 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38816, task name is HTTP connection handler
+2013-10-02 18:04:24 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38816, task name is HTTP connection handler
+2013-10-02 18:04:24 [com.wakanda-software.xbox] ERROR - [1] An established connection was aborted by the software in your host machine.
+, task #38816, task name is HTTP connection handler
+2013-10-02 18:04:24 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38816, task name is HTTP connection handler
+2013-10-02 18:04:24 [com.wakanda-software.srvr] ERROR - [53] Socket read failed, task #38816, task name is HTTP connection handler
+2013-10-02 18:04:25 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38624, task name is HTTP connection handler
+2013-10-02 18:04:25 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38624, task name is HTTP connection handler
+2013-10-02 18:04:40 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 18:04:40 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 18:08:38 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 18:08:38 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 18:09:07 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #35472, task name is HTTP connection handler
+2013-10-02 18:09:07 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #35472, task name is HTTP connection handler
+2013-10-02 18:09:40 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38276, task name is HTTP connection handler
+2013-10-02 18:09:40 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38276, task name is HTTP connection handler
+2013-10-02 18:21:57 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 18:21:57 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 18:22:36 [com.wakanda-software.dbmg] ERROR - [1279] The query placeholder :1 is missing or null., task #38552, task name is HTTP connection handler
+2013-10-02 18:22:36 [com.wakanda-software.dbmg] ERROR - [1201] Query cannot be analyzed, task #38552, task name is HTTP connection handler
+2013-10-02 18:22:56 [com.wakanda-software] INFO - Stops "WIT" solution
+2013-10-02 18:22:57 [com.wakanda-software.WIT.WIT] INFO - "WIT" project stopped
+2013-10-02 18:22:58 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project stopped
+2013-10-02 18:22:58 [com.wakanda-software.WIT] INFO - "WIT" solution stopped
+2013-10-02 18:22:58 [com.wakanda-software] INFO - Closes "WIT" solution
+2013-10-02 18:22:59 [com.wakanda-software.WIT.WIT] INFO - "WIT" project closed
+2013-10-02 18:22:59 [com.wakanda-software.WIT.ServerAdmin] INFO - "ServerAdmin" project closed
+2013-10-02 18:22:59 [com.wakanda-software.WIT] INFO - "WIT" solution closed

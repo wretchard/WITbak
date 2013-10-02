@@ -44,9 +44,14 @@ function unSignedState() {
 };
 
 function signIn() {
-			if (WAF.directory.loginByPassword(loginObj2.loginName, loginObj2.password)) {
-			//debugger;
+			if (WAF.directory.loginByPassword(loginObj2.loginName, loginObj2.password)) {			
 			sources.speaker.all({onSuccess: function (event) {
+				if (sources.speaker.role=='agent') {
+					$$('errorDiv1').setValue("You are an agent");
+					$$('buttonLogin').hide();
+					$$('buttonSignOut').show();					
+					return;
+				}
 
 			fixUI();
 			}
@@ -55,6 +60,8 @@ function signIn() {
 			}
 			else {
 			$$('errorDiv1').setValue("Sign in failed")
+			$$('buttonLogin').hide();
+			$$('buttonSignOut').show();
 			}
 }
 

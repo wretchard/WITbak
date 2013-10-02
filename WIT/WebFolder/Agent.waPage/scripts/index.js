@@ -2,7 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
-	var combobox1 = {};	// @combobox
+	var comboboxPlan = {};	// @combobox
 	var buttonApplicants = {};	// @button
 	var documentEvent = {};	// @document
 	var buttonRegister = {};	// @button
@@ -13,9 +13,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
-	combobox1.change = function combobox1_change (event)// @startlock
+	comboboxPlan.change = function comboboxPlan_change (event)// @startlock
 	{// @endlock
-		$$('errorDiv1').setValue('Not yet implemented')
+		//$$('errorDiv1').setValue('Not yet implemented')
 	};// @lock
 
 	buttonApplicants.click = function buttonApplicants_click (event)// @startlock
@@ -131,7 +131,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	}
 
 // @region eventManager// @startlock
-	WAF.addListener("combobox1", "change", combobox1.change, "WAF");
+	WAF.addListener("comboboxPlan", "change", comboboxPlan.change, "WAF");
 	WAF.addListener("buttonApplicants", "click", buttonApplicants.click, "WAF");
 	WAF.addListener("document", "onLoad", documentEvent.onLoad, "WAF");
 	WAF.addListener("buttonRegister", "click", buttonRegister.click, "WAF");

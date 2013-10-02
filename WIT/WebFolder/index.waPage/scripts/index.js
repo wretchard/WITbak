@@ -183,10 +183,10 @@ function searchCity(vCity) {
 	{// @endlock
 		var strHost;
 		if (destHost=='localhost') {
-			strHost="http://127.0.0.1:8081/Agent.waPage/index.html"
+			strHost="http://127.0.0.1:8081/Agent/"
 		}
 		else {
-			strHost="http://" + destHost + "/Agent.waPage/index.html" 
+			strHost="http://" + destHost + "/Agent/" 
 		}
 		window.open(strHost)			
 		//window.open("http://127.0.0.1:8081/Agent.waPage/index.html");
@@ -196,10 +196,10 @@ function searchCity(vCity) {
 	{// @endlock
 		var strHost;
 		if (destHost=='localhost') {
-			strHost="http://127.0.0.1:8081/Scheduler.waPage/index.html"
+			strHost="http://127.0.0.1:8081/Scheduler/"
 		}
 		else {
-			strHost="http://" + destHost + "/Scheduler.waPage/index.html" 
+			strHost="http://" + destHost + "/Scheduler/" 
 		}
 		window.open(strHost)		
 	};// @lock
@@ -208,10 +208,10 @@ function searchCity(vCity) {
 	{// @endlock
 		var strHost;
 		if (destHost=='localhost') {
-			strHost="http://127.0.0.1:8081/Registration.waPage/index.html"
+			strHost="http://127.0.0.1:8081/Registration/"
 		}
 		else {
-			strHost="http://" + destHost + "/Registration.waPage/index.html" 
+			strHost="http://" + destHost + "/Registration/" 
 		}
 		window.open(strHost)
 	
@@ -221,10 +221,10 @@ function searchCity(vCity) {
 	{// @endlock
 		var strHost;
 		if (destHost=='localhost') {
-			strHost="http://127.0.0.1:8081/index.waPage/index.html"
+			strHost="http://127.0.0.1:8081/index/"
 		}
 		else {
-			strHost="http://" + destHost + "/index.waPage/index.html" 
+			strHost="http://" + destHost + "/index/" 
 		}
 		window.open(strHost)		
 		//window.open("http://127.0.0.1:8081/index.waPage/index.html");

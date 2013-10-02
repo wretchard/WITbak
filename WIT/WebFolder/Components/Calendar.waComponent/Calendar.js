@@ -49,26 +49,23 @@ function constructor (id) {
 	function calcVarAddress() {
 		sources.componentCalendar_varAddress=$$('componentCalendar_textStreet').getValue() + " " + $$('componentCalendar_textCity').getValue()  
 		+ " " + $$('componentCalendar_textCountry').getValue() 
-		//$$('componentCalendar_richTextAddress').setValue(sources.componentCalendar_varAddress);
+
 		sources.componentCalendar_where.address=sources.componentCalendar_varAddress;
-		//sources.componentCalendar_where.autoDispatch()
+
 	}
 
 	buttonAdd.click = function buttonAdd_click (event)// @startlock
 	{// @endlock
 		addBoilerplate({onSuccess: function(event) {
-		//debugger;
 		sources.componentCalendar_where.save()}
 	})
 
 	};// @lock
 	
 	function addBoilerplate() {
-		//debugger;
 		sources.componentCalendar_where.addNewElement()
 		sources.componentCalendar_where.save()
 		//add the boilerplate stuff
-		//debugger;
 		sources.componentCalendar_where.street=$$('componentCalendar_textStreet').getValue();
 		sources.componentCalendar_where.city=$$('componentCalendar_textCity').getValue();
 		sources.componentCalendar_where.country=$$('componentCalendar_textCountry').getValue();
@@ -82,8 +79,8 @@ function constructor (id) {
 		sources.componentCalendar_where.speakerName=sources.objWhere.speakerName;
 		sources.componentCalendar_where.speaker.set(sources.speaker);
 		sources.componentCalendar_where.speakerDescription=sources.objWhere.speakerDescription
-		//sources.componentCalendar_where.save();
-		sources.componentCalendar_where.autodispatch();				
+		//sources.componentCalendar_where.autodispatch();
+		//sources.componentCalendar_where.save();				
 	}
 
 	buttonRemove.click = function buttonRemove_click (event)// @startlock

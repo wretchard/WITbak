@@ -3,16 +3,6 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#combobox1 {
-	 width: 164px;
-	 height: 24px;
-	 top: 121px;
-	 left: 4px;
-	
-	 position: absolute;
-	 
-}
-
 #label12 {
 	 width: 150px;
 	 height: 14px;
@@ -427,6 +417,16 @@
 	 height: 15px;
 	 top: 127px;
 	 left: 268px;
+	
+	 position: absolute;
+	 
+}
+
+#comboboxPlan {
+	 width: 164px;
+	 height: 24px;
+	 top: 121px;
+	 left: 4px;
 	
 	 position: absolute;
 	 

@@ -80,14 +80,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		sources.where.speakerName=sources.objWhere.speakerName;
 		sources.where.speaker.set(sources.speaker);
 		sources.where.speakerDescription=sources.objWhere.speakerDescription
-		//sources.where.autodispatch();				
+			
 	}
 
 	login1.logout = function login1_logout (event)// @startlock
 	{// @endlock
 		sources.where.query("ID=:1", 0)
-		//$$('dataGridMobile').show()
-		//$$('containerForm').show()
 		location.reload();	
 		
 	};// @lock

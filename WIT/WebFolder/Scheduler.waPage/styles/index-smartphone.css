@@ -44,7 +44,7 @@
 #label9 {
 	 width: 46px;
 	 height: 14px;
-	 top: 185px;
+	 top: 185.5px;
 	 left: 5px;
 	
 	 position: absolute;
@@ -164,10 +164,10 @@
 }
 
 #login1 {
-	 width: 320px;
+	 width: 231px;
 	 height: 28px;
 	 top: 32px;
-	 left: 0px;
+	 left: 89px;
 	
 	 position: absolute;
 	 font-weight: bold;
@@ -314,6 +314,19 @@
 	 left: 36px;
 	
 	 position: absolute;
+	 
+}
+
+#richTextTitle {
+	 width: 72px;
+	 height: 16px;
+	 top: 36px;
+	 left: 7px;
+	
+	 position: absolute;
+	 color: rgb(255, 255, 255);
+	 font-weight: bold;
+	 font-size: 14px;
 	 
 }
 
